@@ -1,0 +1,122 @@
+.container {
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+.filters {
+    width: 100%;
+    height: 70px;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+}
+
+.filters h3 {
+    font-weight: 600;
+    margin: 0;
+    padding-left: 25px;
+}
+
+.filters h4 {
+    font-weight: 400;
+    font-size: 14px;
+    margin: 0;
+    padding-left: 25px;
+}
+
+.btn {
+    font-size: 18px;
+    color: #FFFFFF;
+    background-color: #FF5A5F;
+    height: 48px;
+    border: none;
+    width: 20%;
+    border-radius: 4px;
+    margin: auto 30px auto auto;
+}
+
+.btn:hover {
+    opacity: 90%;
+}
+
+.locations {
+    height: 100%;
+    width: 25%;
+    border-right: 1px solid #DDDDDD;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    position: relative;
+}
+
+.locations ul {
+    display: none;
+}
+
+.locations:hover ul{
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #FAFAFA;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    list-style: none;
+    padding-left: 25px;
+}
+
+.amenities {
+    height: 100%;
+    width: 25%;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    position: relative;
+}
+
+.amenities ul {
+    display: none;
+}
+
+.amenities:hover ul{
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #FAFAFA;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    list-style: none;
+    padding-left: 25px;
+}
+
+/* .popover {
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #FAFAFA;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    list-style: none;
+    padding-left: 25px;
+} */
+
+.locations li {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.locations span {
+    padding-left: 25px;
+}
+
+.amenities li {
+    display: flex;
+    flex-direction: column;
+}
